@@ -31,7 +31,7 @@ export default function Sidebar({ isOpen, onClose, isMobile }) {
         </div>
 
         <nav style={styles.navGroup}>
-          <div style={styles.navItem}>o</div>
+          <div style={styles.navItem}>Inicio</div>
           <div style={styles.navItem}>Dashboard</div>
           <div style={styles.navItem}>Bandeja de entrada</div>
           <div style={styles.navItem}>Habilitar factura electrónica</div>
