@@ -36,7 +36,7 @@ export default function Sidebar({ isOpen, onClose, isMobile }) {
           <div style={styles.navItem}>Bandeja de entrada</div>
           <div style={styles.navItem}>Habilitar factura electrónica</div>
           <div style={{ ...styles.navItem, ...styles.navItemActive }}>
-            Facturas de compra / Feedback
+            enviar Feedback
           </div>
           <div style={styles.navItem}>Contactos</div>
           <div style={styles.navItem}>Inventario</div>
