@@ -28,9 +28,9 @@ $$ \text{Score de Sentimiento} = \frac{\text{Comentarios Positivos} - \text{Come
 
 ## 🔗 Enlaces de Despliegue y Recursos
 
-*   **Frontend (React - Vercel):** [alegratecnicaltest – Deployments – Vercel]([https://vercel.com](https://alegratecnicaltest.vercel.app/)
-*   **Repositorio de Código (GitHub):** [github.com/JillFeint/alegratecnicaltest](https://github.com/JillFeint/alegratecnicaltest)
-*   **Editor Backend (Google Apps Script):** [Editor de Apps Script]([https://script.google.com/](https://script.google.com/d/1O6tLJ6LqNuf5pizjH1D2i29d-cpHCpnXacStTBjQv6LiihMFnBOADYCr/edit?usp=sharing)
+* **Frontend (React - Vercel):** [alegratecnicaltest – Deployments – Vercel](https://alegratecnicaltest.vercel.app/)
+* **Repositorio de Código (GitHub):** [github.com/JillFeint/alegratecnicaltest](https://github.com/JillFeint/alegratecnicaltest)
+* **Editor Backend (Google Apps Script):** [Editor de Apps Script](https://script.google.com/d/1O6tLJ6LqNuf5pizjH1D2i29d-cpHCpnXacStTBjQv6LiihMFnBOADYCr/edit?usp=sharing)
 
 ---
 
