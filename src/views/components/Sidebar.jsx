@@ -27,12 +27,12 @@ export default function Sidebar({ isOpen, onClose, isMobile }) {
         <div style={styles.statusModule}>
           <div style={styles.statusModuleTitle}>Sesión Activa</div>
           <div style={styles.statusDetail}>Estado: En línea</div>
-          <div style={styles.statusDetail}>Terminal: POS Colombia</div>
+          <div style={styles.statusDetail}>Terminal: Violeta sublime Colombia Sas</div>
         </div>
 
         <nav style={styles.navGroup}>
-          <div style={styles.navItem}>Volver a Espacio Contador</div>
           <div style={styles.navItem}>Inicio</div>
+          <div style={styles.navItem}>Dashboard</div>
           <div style={styles.navItem}>Bandeja de entrada</div>
           <div style={styles.navItem}>Habilitar factura electrónica</div>
           <div style={{ ...styles.navItem, ...styles.navItemActive }}>
