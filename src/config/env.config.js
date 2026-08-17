@@ -4,7 +4,7 @@
 
  export const ENV_CONFIG = {
   // Lectura segura de la variable de entorno desde .env (Vite)
-  API_URL: import.meta.env?.VITE_APPS_SCRIPT_URL || '',
+  API_URL: import.meta.env?.VITE_API_URL || '',
   
   // Timeout para peticiones de red (10 segundos)
   REQUEST_TIMEOUT_MS: 10000,
