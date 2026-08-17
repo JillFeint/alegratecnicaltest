@@ -23,7 +23,7 @@ export default function Sidebar({ isOpen, onClose, isMobile }) {
           height: 'calc(100vh - 56px)',
         }}
       >
-        {/* Módulo Naranja de Sesión Activa (Posicionado ESTRICTAMENTE ARRIBA de Inicio) */}
+        {/* Módulo Naranja de Sesión Activa */}
         <div style={styles.statusModule}>
           <div style={styles.statusModuleTitle}>Sesión Activa</div>
           <div style={styles.statusDetail}>Estado: En línea</div>
@@ -31,17 +31,29 @@ export default function Sidebar({ isOpen, onClose, isMobile }) {
         </div>
 
         <nav style={styles.navGroup}>
-          <div style={styles.navItem}>Inicio</div>
+          <div style={styles.navItem}>o</div>
           <div style={styles.navItem}>Dashboard</div>
           <div style={styles.navItem}>Bandeja de entrada</div>
           <div style={styles.navItem}>Habilitar factura electrónica</div>
           <div style={{ ...styles.navItem, ...styles.navItemActive }}>
-            enviar Feedback
+            Envía tu feedback
           </div>
           <div style={styles.navItem}>Contactos</div>
           <div style={styles.navItem}>Inventario</div>
           <div style={styles.navItem}>Bancos</div>
         </nav>
+
+        {/* Botón grande y llamativo al final del menú */}
+        <div style={styles.bottomContainer}>
+          <a
+            href="https://datastudio.google.com/reporting/05f5eee7-189f-4cce-9474-041111431af4"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.sidebarDashboardButton}
+          >
+            📊 VISITAR DASHBOARD
+          </a>
+        </div>
       </aside>
     </>
   );
@@ -96,6 +108,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     gap: '4px',
+    flex: 1,
   },
   navItem: {
     padding: '10px 12px',
@@ -110,5 +123,27 @@ const styles = {
     backgroundColor: '#E6F7F5',
     color: '#00BFA5',
     fontWeight: '600',
+  },
+  bottomContainer: {
+    marginTop: 'auto',
+    paddingTop: '16px',
+    borderTop: '1px solid #E2E8F0',
+  },
+  sidebarDashboardButton: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    backgroundColor: '#00BFA5',
+    color: '#FFFFFF',
+    fontWeight: '700',
+    fontSize: '12px',
+    padding: '12px',
+    borderRadius: '6px',
+    textDecoration: 'none',
+    boxShadow: '0 4px 6px rgba(0, 191, 165, 0.25)',
+    textAlign: 'center',
+    boxSizing: 'border-box',
+    transition: 'background-color 0.2s ease',
   },
 };
