@@ -1,5 +1,4 @@
 /**
- * src/App.jsx
  * Contenedor principal de la aplicación.
  * Mantiene la disposición responsiva y el control de visibilidad del Sidebar,
  * renderizando los componentes de vista con la lógica de envío al backend.
